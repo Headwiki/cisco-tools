@@ -1,0 +1,29 @@
+{
+  "name": "cisco-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Headwiki/cisco-tools.git"
+  },
+  "keywords": [
+    "cisco",
+    "ssh",
+    "tools"
+  ],
+  "author": "Henrik Hedlund Andersen",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Headwiki/cisco-tools/issues"
+  },
+  "homepage": "https://github.com/Headwiki/cisco-tools#readme",
+  "dependencies": {
+    "commander": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "ssh2": "^0.8.7"
+  }
+}
