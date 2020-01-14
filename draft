@@ -1,0 +1,15 @@
+let soapBody = new Buffer('<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.cisco.com/AXL/API/10.5">' +
+        '<soapenv:Header/>' +
+        '<soapenv:Body>' +
+        '<ns:listCss sequence="?">' +
+        '<searchCriteria>' +
+        '<name>%</name>' +
+        '</searchCriteria>' +
+        '<returnedTags uuid="?">' +
+        '<name>?</name>' +
+        '<description>?</description>' +
+        '<clause>?</clause>' +
+        '</returnedTags>' +
+        '</ns:listCss>' +
+        '</soapenv:Body>' +
+        '</soapenv:Envelope>');

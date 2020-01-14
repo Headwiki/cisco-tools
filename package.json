@@ -24,6 +24,7 @@
   "dependencies": {
     "commander": "^4.0.1",
     "dotenv": "^8.2.0",
+    "https": "^1.0.0",
     "ssh2": "^0.8.7"
   }
 }
